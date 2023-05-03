@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\TetrisIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\BlueBlock.png" />
+    <None Remove="Resources\DarkBlueBlock.png" />
+    <None Remove="Resources\EmptyBlock.png" />
+    <None Remove="Resources\EmptyBlockGray.png" />
+    <None Remove="Resources\GameBackground.png" />
+    <None Remove="Resources\GreenBlock.png" />
+    <None Remove="Resources\IBlock.png" />
+    <None Remove="Resources\JBlock.png" />
+    <None Remove="Resources\LBlock.png" />
+    <None Remove="Resources\OBlock.png" />
+    <None Remove="Resources\OrangeBlock.png" />
+    <None Remove="Resources\PurpleBlock.png" />
+    <None Remove="Resources\RedBlock.png" />
+    <None Remove="Resources\SBlock.png" />
+    <None Remove="Resources\TBlock.png" />
+    <None Remove="Resources\TetrisIcon.ico" />
+    <None Remove="Resources\YellowBlock.png" />
+    <None Remove="Resources\ZBlock.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\TetrisIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\BlueBlock.png" />
+    <Resource Include="Resources\DarkBlueBlock.png" />
+    <Resource Include="Resources\EmptyBlock.png" />
+    <Resource Include="Resources\EmptyBlockGray.png" />
+    <Resource Include="Resources\GameBackground.png" />
+    <Resource Include="Resources\GreenBlock.png" />
+    <Resource Include="Resources\IBlock.png" />
+    <Resource Include="Resources\JBlock.png" />
+    <Resource Include="Resources\LBlock.png" />
+    <Resource Include="Resources\OBlock.png" />
+    <Resource Include="Resources\OrangeBlock.png" />
+    <Resource Include="Resources\PurpleBlock.png" />
+    <Resource Include="Resources\RedBlock.png" />
+    <Resource Include="Resources\SBlock.png" />
+    <Resource Include="Resources\TBlock.png" />
+    <Resource Include="Resources\TetrisIcon.ico" />
+    <Resource Include="Resources\YellowBlock.png" />
+    <Resource Include="Resources\ZBlock.png" />
+  </ItemGroup>
+
+</Project>
